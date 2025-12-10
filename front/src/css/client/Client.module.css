@@ -1,0 +1,11 @@
+.holder {
+  /* Rectangle 15 */
+
+  background: linear-gradient(
+    116.43deg,
+    rgba(246, 228, 218, 0.5292) 15.25%,
+    rgba(255, 184, 145, 0.393082) 47.34%,
+    rgba(255, 184, 145, 0.2331) 89.34%
+  );
+  border-radius: 0px 0px 15px 15px;
+}

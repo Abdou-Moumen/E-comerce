@@ -1,0 +1,51 @@
+.header {
+  padding: 10px;
+  /* background-color: #ffffff; */
+}
+
+/*client header*/
+.clientHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/*admin header*/
+
+.adminHeader {
+  display: flex;
+  justify-content: center; /* Centers the adminLogoContainer horizontally */
+  align-items: center;
+  position: relative; /* Added for absolute positioning of menuIconContainer */
+}
+
+.menuIconContainer {
+  position: absolute; /* Takes the menuIconContainer out of the document flow */
+  left: 0; /* Positions the menuIconContainer 0px from the left */
+}
+
+.adminLogo {
+  cursor: pointer;
+}
+
+.miniLogoAdmin {
+  cursor: pointer;
+}
+
+.clientHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.clientLogo {
+  cursor: pointer;
+  /* flex-grow: 2; Increase the flex-grow to make the logo appear bigger */
+  text-align: center;
+}
+.icon {
+  cursor: pointer;
+  padding: 0px 10px 0px 10px;
+}

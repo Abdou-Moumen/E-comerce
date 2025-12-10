@@ -1,0 +1,41 @@
+# Dependency directories
+node_modules/
+
+# Dependency lock files
+package-lock.json
+
+# IDE/Editor files
+.vscode/
+.idea/
+
+# Compiled output
+/dist/
+
+# Environment-specific files
+.env
+
+# Log files
+*.log
+
+# Ignore vendor directory
+/vendor/
+
+# Ignore node_modules directory
+/node_modules/
+
+# Ignore environment file
+.env
+
+# Ignore storage directory (generated files)
+/storage/
+
+# Ignore compiled output
+/public/css/
+/public/js/
+
+# Ignore user-specific files
+/public/hot
+/public/storage
+/storage/*.key
+/vendor/.env
+.DS_Store
